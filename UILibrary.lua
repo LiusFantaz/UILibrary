@@ -59,8 +59,8 @@ function UILibrary:CreateWindow(config)
 	TabLayout.Parent = TabHolder
 
 	local Content = Instance.new("Frame")
-	Content.Size = UDim2.new(1,-180,1,-20)
-	Content.Position = UDim2.new(0,175,0,10)
+	Content.Size = UDim2.new(1,-160,1,-20)
+	Content.Position = UDim2.new(0,155,0,10)
 	Content.BackgroundTransparency = 1
 	Content.Parent = Main
 
