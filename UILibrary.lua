@@ -19,8 +19,8 @@ function UILibrary:CreateWindow(config)
 	ScreenGui.Parent = PlayerGui
 
 	local Main = Instance.new("Frame")
-	Main.Size = UDim2.new(0, 760, 0, 500)
-	Main.Position = UDim2.new(0.5, -380, 0.5, -250)
+	Main.Size = UDim2.new(0, 620, 0, 420)
+	Main.Position = UDim2.new(0.5, -310, 0.5, -210)
 	Main.BackgroundColor3 = Color3.fromRGB(22,22,22)
 	Main.BorderSizePixel = 0
 	Main.Parent = ScreenGui
