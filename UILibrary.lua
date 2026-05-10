@@ -30,8 +30,7 @@ function UILibrary:CreateWindow(config)
 	MainCorner.Parent = Main
 
 	local Sidebar = Instance.new("Frame")
-	Sidebar.Size = UDim2.new(0,170,1,0)
-	Sidebar.BackgroundColor3 = Color3.fromRGB(16,16,16)
+    Sidebar.Size = UDim2.new(0,150,1,0)	Sidebar.BackgroundColor3 = Color3.fromRGB(16,16,16)
 	Sidebar.BorderSizePixel = 0
 	Sidebar.Parent = Main
 
